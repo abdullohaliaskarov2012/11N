@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0; 
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.main{
+    max-width: 1440px;
+    height: 1024px;
+    background-color: #202C36;
+    margin: 0 auto;
+}
+.nav{
+    width: 1440px;
+    min-height: 80px;
+    background-color: #2B3844;
+    box-shadow: 0px 2px 4px 0px #0000000E;
+    margin: 0 auto;
+    padding: 23px;
+    /* margin-top: -70px; */
+}
+.nav ul{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    color: white ;
+    align-items: center;
+}
+.big{
+    font-size: 24px;
+    font-weight: 800;
+}
+.nav:hover{
+    margin-top: 0px;
+    transition: 2s;
+}
+.inp input{
+    width: 480px;
+    height: 56px;
+    border: 10px;
+    background-color: #2B3844;
+    box-shadow: 0px 2px 9px 0px #0000000E;
+    margin-top: 48px;
+    margin-left: 80px;
+}
+.inp input placeholder{
+    color: white;
+}
+.img-text{
+    display: flex;
+    gap: 24px;
+    color: white;
+    margin-top: -34px;
+    margin-left: 120px;
+}
+.img-text h5:hover{
+    color: black;
+    background-color: white;
+    padding: 5px 3px;
+    border-radius: 10px;
+}
+.containers{
+    max-width: 100%;
+    padding: 48px 80px;
+}
+.countries{
+    max-width: 1280px;
+    height: 336px;
+    /* border: 3px solid red; */
+    display: flex;
+    justify-content: space-between;
+
+}
+.german{
+    width: 267px;
+    height: 250px;
+    /* border: 3px solid red; */
+    background-color: #2B3844;
+    font-size: 18px;
+    font-weight: 800;
+    color: white;
+    text-align: center;
+    align-items: center;
+}
+.german h5{
+    padding: 32px 93px;
+}
+.german img{
+    width: 267px;
+    height: 160px;
+}
+.german:hover{
+    box-shadow: 0px 0px 10px white;
+}
+@media (max-width: 834px) {
+    .nav{
+        width: 834px;
+        height: 80px;
+    }
+    .main{
+        width: 834px;
+        height: 1628px;
+    }
+    .german{
+        width: 264px;
+        height: 336px;
+    }
+    .containers{
+        width: 0px;
+    }
+}
+@media (max-width: 376px) {
+    .nav{
+        width: 375px;
+    height: 80px;
+    }
+    .main{
+        width: 375px;
+        height: 3305px;
+    }
+}   
